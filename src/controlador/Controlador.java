@@ -111,7 +111,7 @@ public class Controlador implements Initializable {
             colEstatus.setCellValueFactory(new PropertyValueFactory<>("estatus"));
             colUsuario.setCellValueFactory(new PropertyValueFactory<>("usuario"));
             colPass.setCellValueFactory(new PropertyValueFactory<>("pass"));
-            
+            LimpiarCampos()
         } else {
             label_Error.setVisible(true);
         }
